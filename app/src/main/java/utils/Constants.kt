@@ -1,5 +1,6 @@
 package utils
 
 object Constants {
-    val BASE_URL: String = "https://reqres.in"
+    const val BASE_URL: String = "https://reqres.in"
+    const val END_POINT: String = "/api/users?page=2"
 }
