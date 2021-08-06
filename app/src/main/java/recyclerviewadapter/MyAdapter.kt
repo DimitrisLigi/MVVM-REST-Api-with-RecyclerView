@@ -1,4 +1,0 @@
-package recyclerviewadapter
-
-class MyAdapter() {
-}

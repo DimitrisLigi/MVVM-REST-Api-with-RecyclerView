@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:id="@+id/main_layout_user_details"
     android:padding="8dp">
 
 
     <ImageView
-        android:id="@+id/tv_avatar"
+        android:id="@+id/iv_avatar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -25,8 +26,8 @@
         android:layout_marginTop="8dp"
         android:text="User ID:"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/tv_avatar"
-        app:layout_constraintTop_toTopOf="@+id/tv_avatar" />
+        app:layout_constraintStart_toEndOf="@+id/iv_avatar"
+        app:layout_constraintTop_toTopOf="@+id/iv_avatar" />
 
     <TextView
         android:id="@+id/tv_ID"
@@ -46,7 +47,7 @@
         android:layout_marginTop="8dp"
         android:text="Email:"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/tv_avatar"
+        app:layout_constraintStart_toEndOf="@+id/iv_avatar"
         app:layout_constraintTop_toBottomOf="@+id/tv_tools_lastname" />
 
     <TextView
