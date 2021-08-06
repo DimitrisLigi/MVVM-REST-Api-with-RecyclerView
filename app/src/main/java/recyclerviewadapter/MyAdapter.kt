@@ -1,4 +1,4 @@
 package recyclerviewadapter
 
-class MyAdapter {
+class MyAdapter() {
 }
